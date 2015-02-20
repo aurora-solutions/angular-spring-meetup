@@ -13,3 +13,13 @@ node_modules
 src/main/webapp/dist
 .gradle
 build
+
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
