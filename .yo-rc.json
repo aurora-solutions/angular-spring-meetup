@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "bookstore",
+    "packageName": "io.aurorasolutions.bookstore",
+    "packageFolder": "io/aurorasolutions/bookstore",
+    "authenticationType": "oauth2",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "rememberMeKey": "de9ff500cd6ce188080b496c4fcd85ff5015f259"
+  }
+}
