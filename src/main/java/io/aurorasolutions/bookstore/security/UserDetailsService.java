@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * Authenticate a user from the database.
  */
-@Component("userDetailsService")
+//@Component("userDetailsService")
 public class UserDetailsService implements org.springframework.security.core.userdetails.UserDetailsService {
 
     private final Logger log = LoggerFactory.getLogger(UserDetailsService.class);

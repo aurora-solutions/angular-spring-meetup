@@ -18,8 +18,9 @@ import org.springframework.security.oauth2.provider.expression.OAuth2MethodSecur
 
 import javax.inject.Inject;
 
-@Configuration
-@EnableWebSecurity
+@SuppressWarnings("ALL")
+//@Configuration
+//@EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Inject

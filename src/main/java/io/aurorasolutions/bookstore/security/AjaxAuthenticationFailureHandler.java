@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * Returns a 401 error code (Unauthorized) to the client, when Ajax authentication fails.
  */
-@Component
+//@Component
 public class AjaxAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
 
     @Override

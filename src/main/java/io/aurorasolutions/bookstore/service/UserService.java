@@ -24,13 +24,14 @@ import java.util.Set;
 /**
  * Service class for managing users.
  */
+@SuppressWarnings("ALL")
 @Service
 @Transactional
 public class UserService {
 
     private final Logger log = LoggerFactory.getLogger(UserService.class);
 
-    @Inject
+    //@Inject
     private PasswordEncoder passwordEncoder;
 
     @Inject

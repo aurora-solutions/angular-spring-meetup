@@ -25,7 +25,7 @@ import java.util.Arrays;
 
 @Configuration
 @EnableJpaRepositories("io.aurorasolutions.bookstore.repository")
-@EnableJpaAuditing(auditorAwareRef = "springSecurityAuditorAware")
+//@EnableJpaAuditing(auditorAwareRef = "springSecurityAuditorAware")
 @EnableTransactionManagement
 public class DatabaseConfiguration implements EnvironmentAware {
 

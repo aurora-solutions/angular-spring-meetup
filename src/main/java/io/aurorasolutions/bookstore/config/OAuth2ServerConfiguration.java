@@ -25,11 +25,12 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import javax.inject.Inject;
 import javax.sql.DataSource;
 
-@Configuration
+@SuppressWarnings("ALL")
+//@Configuration
 public class OAuth2ServerConfiguration {
 
-    @Configuration
-    @EnableResourceServer
+    //@Configuration
+    //@EnableResourceServer
     protected static class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
 
         @Inject
@@ -78,8 +79,8 @@ public class OAuth2ServerConfiguration {
         }
     }
 
-    @Configuration
-    @EnableAuthorizationServer
+    //@Configuration
+    //@EnableAuthorizationServer
     protected static class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter implements EnvironmentAware {
 
         private static final String ENV_OAUTH = "authentication.oauth.";
